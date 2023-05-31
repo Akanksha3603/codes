@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    height:100vh;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+    padding:20px 10px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  a:hover {
+    color: #888;
+  }
+  #statistics{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+  }
+  #statistics p{
+    padding:50px 100px;
+    color: white;
+    size:bold;
+    background-color: rgb(100, 100, 239);
+  }
